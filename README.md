@@ -1,59 +1,3 @@
-Features
-
-View a list of products with images,title,prices,category, and rating.
-Pull-to-refresh functionality for updating product data.
-Simple and responsive design using Jetpack Compose.
-Error handling with network connectivity checks.
-
-
-model 
-
-com.example.productviewerapp.model/
-
-Product.kt    # Model representing the Product entity
-
-Rating.kt     # Model representing the Rating entity
-     
-
-network
-
-
-com.example.productviewerapp.network/
-
-ApiService.kt           # Retrofit API service interface (Get product)
-
-RetrofitInstance        # Retrofit network client setup
-
-
-utils
-
-com.example.productviewerapp.utlis/
-
-CommonValues        # Static values are defined message and counts
-
-ConnectionState     # For check network connection -available / unavailable 
-
-Helper    #To use common functions like - Header/NoDataFound/NetworkStatus
-
-NetworkUtil  # Check network connection by using state 
-
-
-viewmodel
-
-com.example.productviewerapp.viewmodel/
-
-ProductViewModel  # To get the product list from API and used by stateflow to get and update into UI part
-
-
-
- #fetchProducts - To call API and handled exception 
- #filterProductsByTitle  - To filter the product based on a search query (By Title)
-
-
-MainActivity
-
-com.example.productviewerapp/
-
 Features:
 
 Product List Display: The app uses a lazy grid to display products in a grid layout.
@@ -84,6 +28,8 @@ ProductCard  -- # Title/Price/Category/Image with loading /Rating
 
 Dependencies:
 
-Retrofit #Functionalities for networking  ( 'com.squareup.retrofit2:retrofit:2.9.0')
+Retrofit        #Functionalities for networking  ( 'com.squareup.retrofit2:retrofit:2.9.0')
+
 Coil    #Image loading   ('io.coil-kt:coil-compose:2.2.0')
+
 Accompanist SwipeRefresh #UI behavior  (com.google.accompanist:accompanist-swiperefresh:0.28.0)
