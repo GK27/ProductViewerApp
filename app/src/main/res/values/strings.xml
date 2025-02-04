@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ProductViewerApp</string>
+    <string name="no_network">No internet connection available. Please check your connection</string>
+    <string name="no_result">No results found for</string>
+    <string name="explore_products">Explore Products</string>
+    <string name="category">Category: %1$s</string>
+    <string name="price_symbol">₹%1$s</string>
+    <string name="rating_star">Rating Star</string>
+    <string name="search_icon">Search Icon</string>
+    <string name="search">Search...</string>
+    <string name="failed_to_fetch_products">Failed to fetch products</string>
+    <string name="no_internet">No Internet</string>
+
+
+</resources>
