@@ -132,7 +132,7 @@ ensuring a pleasant user experience while browsing the product catalog.
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/ProductViewerApp.git
+    git clone https://github.com/GK27/ProductViewerApp.git
     ```
 
 2. Open the project in **Android Studio**.
