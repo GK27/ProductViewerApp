@@ -162,6 +162,9 @@ Add images of your app here for better visualization.
 3. **Product Filter Screen**
    ![Product Filter Screen](app/src/main/res/drawable/screenshots/filter_product_item.png)
 
+4. **Network Check Screen**
+   ![Network Check](app/src/main/res/drawable/screenshots/network_check.png)
+
 ---
 
 
