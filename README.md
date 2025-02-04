@@ -153,6 +153,15 @@ also pull-to-refresh the list of products to get the latest data.
 
 Add images of your app here for better visualization.
 
+1. **App logo**
+   ![Product App_Logo](app/src/main/res/drawable/screenshots/productviewerapp_logo.png)
+
+2. **Product List Screen**
+   ![Product List Screen](app/src/main/res/drawable/screenshots/product_list_item.png)
+
+3. **Product Filter Screen**
+   ![Product Filter Screen](app/src/main/res/drawable/screenshots/filter_product_item.png)
+
 ---
 
 
